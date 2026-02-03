@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>She Said Yes 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="valentine-bg">
+
+  <div class="card big">
+    <h1>💞 YESSSSSSSSIR 💞</h1>
+    <p class="love-text">
+      I knew you’d say yes Bebe 😌💗  
+      I'm the luckiest man in the world I love you so much bebe.
+    </p>
+
+    <img src="200w.gif" alt="Friends valentine gif" class="gif" />
+
+    <h2>📅 Our Schedule Bebe</h2>
+    <p class="updates">Updates are still being made but here’s the rough plan for our special day!</p>
+    <ul class="schedule">
+      <li>🕒 5:15 PM — Pick you up from work </li>
+      <li>👗 5:30 PM — Get to your place (Put something real nice on)</li>
+      <li>🍝 6:30 PM — Dinner & laughs (Hopefully Devin isn't our waiter.) Bro is going to crusify me.</li>
+      <li>😊 8:00 PM — Vibes and reminisce</li>
+      <li>🍰 10:00 PM — Snacks, desserts, chill, movie, talk</li>
+      <li>💤 12:00 AM — Some us time💘😈 then sleep with you in my arms </li>
+    </ul>
+
+    <p class="closing">
+      Can’t wait to spend the day with you bebe❤️
+    </p>
+  </div>
+
+  <!-- <audio id="bgMusic" loop>
+    <source src="song.mp3" type="audio/mpeg" />
+    </audio>
+    
+  <script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const music = document.getElementById("bgMusic");
+
+    const resumeMusic = () => {
+      if (music && localStorage.getItem("musicPlaying") === "true") {
+        music.play().catch(() => {});
+        document.removeEventListener("click", resumeMusic);
+      }
+    };
+
+    document.addEventListener("click", resumeMusic);
+  });
+</script> -->
+
+<audio id="bgMusic" loop>
+  <source src="song.mp3" type="audio/mpeg" />
+</audio>
+    
+  <script>
+  const music = document.getElementById("bgMusic");
+  if (localStorage.getItem("musicPlaying") === "true") {
+    music.play().catch(() => {});
+  }
+</script>
+
+
+</body>
+</html>
